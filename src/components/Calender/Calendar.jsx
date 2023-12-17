@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import CalendarDays from './CalendarDays';
-import './Calendar.css';
+import './calendar.css';
 import {useLocalStorage} from '../../utils/useLocalStorage';
 
 
