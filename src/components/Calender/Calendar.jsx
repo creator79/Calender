@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import CalendarDays from './CalendarDays';
 import './Calendar.css';
-import useLocalStorage from './useLocalStorage';
+import {useLocalStorage} from '../../utils/useLocalStorage';
 
 
 const Calendar = () => {
-  const storedValue = JSON.parse(localStorage.getItem("events")) || initialValue;
+
   const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
   const months = ['January', 'February', 'March', 'April', 'May', 'June',
     'July', 'August', 'September', 'October', 'November', 'December'];
