@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import CalendarDays from './CalendarDays';
 import './calendar.css';
-import {useLocalStorage} from '../../utils/useLocalStorage';
+import {useLocalStorage} from '../utils/useLocalStorage';
 
 
 const Calendar = () => {
